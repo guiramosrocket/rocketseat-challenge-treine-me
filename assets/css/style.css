@@ -73,10 +73,12 @@ ul li a {
   font-weight: 400;
   color: var(--darkBlue);
   text-decoration: none;
+  opacity: 0.5;
 }
 
 ul li a:hover {
   font-weight: 700;
+  opacity: 1;
 }
 
 .btn-whatsapp {
