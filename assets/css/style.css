@@ -1,3 +1,12 @@
+:root {
+  --poolsideBlue: #89c5cc;
+  --darkBlue: #1f1534;
+  --whiteVariation: #f9f9f9;
+  --green: #69b99d;
+  --greenForHover: #53967e;
+  --grey: #7d7987;
+}
+
 html,
 body {
   margin: 0;
@@ -34,11 +43,11 @@ h1 {
   font-weight: 400;
   line-height: 56px;
   width: 489px;
-  color: #1f1534;
+  color: var(--darkBlue);
 }
 
 h1 span {
-  color: #89c5cc;
+  color: var(--poolsideBlue);
   font-weight: 700;
 }
 
@@ -46,7 +55,7 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 28px;
-  color: #7d7987;
+  color: var(--grey);
   margin: 40px 0;
 }
 
@@ -62,7 +71,7 @@ ul {
 ul li a {
   font-size: 18px;
   font-weight: 400;
-  color: #1f1534;
+  color: var(--darkBlue);
   text-decoration: none;
 }
 
@@ -79,8 +88,8 @@ ul li a:hover {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #f9f9f9;
-  background: #69b99d;
+  color: var(--whiteVariation);
+  background: var(--green);
   border: 0;
   height: 56px;
   padding: 14px 32px 15px;
@@ -89,7 +98,7 @@ ul li a:hover {
 }
 
 .btn-whatsapp:hover {
-  background: #53967e;
+  background: var(--greenForHover);
 }
 
 #footer {
@@ -103,7 +112,7 @@ ul li a:hover {
 
 #footer a {
   text-decoration: none;
-  color: #1f1534;
+  color: var(--darkBlue);
   font-weight: 700;
 }
 
